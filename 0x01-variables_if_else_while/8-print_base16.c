@@ -13,7 +13,7 @@ for (n = 48; n <= 57; ++n)
 {
 putchar(n);
 }
-for (c = 'a'; n <= 'f'; ++n)
+for (c = 'a'; c <= 'f'; ++c)
 {
 putchar(c);
 }
