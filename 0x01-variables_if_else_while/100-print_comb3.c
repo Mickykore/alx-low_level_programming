@@ -7,22 +7,21 @@
  */
 int main(void)
 {
-int c, c_two;
+int c, c2;
 
 for (c = 48; c <= 56; c++)
 {
-for (c_two = c + 1; c_two <= 57; c_two++)
+for (c2 = c + 1; c2 <= 57; c2++)
 {
-													putchar(c);
-													putchar(c_two);
-													if (c != 56 || c_two != 57)
-													{
-																										putchar(44);
-																										putchar(32);
-																										}
-													}
+putchar(c);
+putchar(c2);
+if (c != 56 || c2 != 57)
+{
+putchar(44);
+putchar(32);
 }
-
+}
+}
 putchar(10);
 return (0);
 }
