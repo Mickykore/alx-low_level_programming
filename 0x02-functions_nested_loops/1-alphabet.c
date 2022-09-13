@@ -13,5 +13,5 @@ _putchar(i);
 i++;
 }
 _putchar('\n');
-print_alphabet();
+return (0);
 }
