@@ -12,10 +12,9 @@ while (s[i])
 {
 i++;
 }
-while (s[i])
+while (i--)
 {
 _putchar(s[i]);
-i--;
 }
 _putchar('\n');
 }
