@@ -13,12 +13,12 @@ for (length = 0; s[length] != '\0'; length++)
 {
 i = 0;
 mid = length / 2;
+}
 while (mid--)
 {
 tmp = s[length - i - 1];
 s[length - i - 1] = s[i];
 s[i] = tmp;
 i++;
-}
 }
 }
