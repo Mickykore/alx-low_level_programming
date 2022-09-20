@@ -7,17 +7,15 @@
  */
 int main(void)
 {
-int r = 0, c = 0;
-time_t t;
-srand((unsigned int) time(&t));
-while (c < 2772)
+int sum;
+char c;
+srand(time(NULL));
+while (c <= 2645)
 {
-r = rand() % 128;
-if ((c + r) > 2772)
-break;
-c = c + r;
-printf("%c", r);
+c = rand() % 128;
+sum += c;
+putchar(c);
 }
-printf("%c\n", (2772 - c));
+putchar(2772 - sum);
 return (0);
 }
